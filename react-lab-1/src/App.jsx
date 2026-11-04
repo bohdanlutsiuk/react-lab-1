@@ -3,8 +3,8 @@ import './App.css'
 
 function App() {
   const userData = {
-    name: 'Junie (AI Assistant)',
-    group: 'AI-2026',
+    name: 'Bohdan Lutsiuk',
+    group: 'KN-313',
     technologies: ['React', 'Vite', 'Node.js'],
   }
 
