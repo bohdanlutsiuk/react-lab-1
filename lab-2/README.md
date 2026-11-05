@@ -34,7 +34,7 @@ App
     │   └── Avatar
     ├── Profile (key="3")
     │   └── Avatar
-    └── Profile (key="4") 
+    └── Profile (key="4")
         └── Avatar
 ```
 
