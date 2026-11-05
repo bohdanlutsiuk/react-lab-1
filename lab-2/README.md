@@ -29,7 +29,8 @@ App
 │   └── Avatar
 └── Card
     ├── Profile (key="1")
-    │   └── Avatar
+    │   ├── Avatar
+    │   └── Badge
     ├── Profile (key="2")
     │   └── Avatar
     ├── Profile (key="3")
@@ -48,7 +49,8 @@ main.jsx
 │   ├── Header.jsx
 │   ├── Avatar.jsx
 │   ├── Profile.jsx
-│   │   └── Avatar.jsx
+│   │   ├── Avatar.jsx
+│   │   └── Badge.jsx
 │   ├── Card.jsx
 │   └── team.js
 └── index.css
