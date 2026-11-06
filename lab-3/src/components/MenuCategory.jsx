@@ -1,6 +1,10 @@
 import MenuItemRow from './MenuItemRow.jsx'
 
-export default function MenuCategory({ category }) {
+export default function MenuCategory({ category, inStockOnly }) {
+  const items = inStockOnly
+    ? category.items.filter((item) => item.available)
+    : category.items
+
   return (
     <tbody key={category.id}>
       <tr className="category">
@@ -8,7 +12,7 @@ export default function MenuCategory({ category }) {
           {category.name} ({category.items.length})
         </th>
       </tr>
-      {category.items.map((item) => (
+      {items.map((item) => (
         <MenuItemRow key={item.id} item={item} />
       ))}
     </tbody>
